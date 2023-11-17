@@ -1,0 +1,47 @@
+
+{
+    "totalValue": 3566.10,
+    "listProducts": [
+        {
+            "id" : "01",
+            "image": "k1",
+            "title": "Systema de Pequeno Porte",
+            "brand": "L-Acustic's",
+            "model": "Docs-Series",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "productImage": [ "k1", "GSL", "210y"]
+            
+        },
+        
+        {
+            "id" : "02",
+            "image": "GSL",
+            "title": "Systema de Médio Porte",
+            "brand": "d&b AudioTecnik",
+            "model": "SL-Series",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "productImage": [ "k1", "GSL", "210y"]
+            
+        },
+        {
+            "id" : "03",
+            "image": "210y",
+            "title": "Systema de Grande Porte",
+            "brand": "LS Audio",
+            "model": "210-Y",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "productImage": [ "k1", "GSL", "210y"]
+            
+        },
+        {
+            "id" : "04",
+            "image": "GTO_01",
+            "title": "Systema de Grande Porte",
+            "brand": "Outline",
+            "model": "GTO",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "productImage": [ "k1", "GSL", "210y"]
+            
+        }
+    ]
+}

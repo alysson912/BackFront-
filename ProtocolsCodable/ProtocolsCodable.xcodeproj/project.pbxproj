@@ -15,6 +15,8 @@
 		4B6D09EA2B07990B007219F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B6D09E82B07990B007219F8 /* LaunchScreen.storyboard */; };
 		4B6D09F62B0799B8007219F8 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D09F52B0799B8007219F8 /* HomeScreen.swift */; };
 		4B6D09F92B079AE9007219F8 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D09F82B079AE9007219F8 /* UIView+Extensions.swift */; };
+		4B6D09FE2B079BC0007219F8 /* DataMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B6D09FD2B079BC0007219F8 /* DataMock.json */; };
+		4B6D0A022B079D4A007219F8 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D0A012B079D4A007219F8 /* HomeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		4B6D09EB2B07990B007219F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B6D09F52B0799B8007219F8 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		4B6D09F82B079AE9007219F8 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		4B6D09FD2B079BC0007219F8 /* DataMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DataMock.json; sourceTree = "<group>"; };
+		4B6D0A012B079D4A007219F8 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 		4B6D09F12B079969007219F8 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				4B6D09FA2B079B95007219F8 /* API */,
 				4B6D09F72B079AE9007219F8 /* Utils */,
 				4B6D09DD2B079909007219F8 /* AppDelegate.swift */,
 				4B6D09DF2B079909007219F8 /* SceneDelegate.swift */,
@@ -83,8 +88,7 @@
 		4B6D09F22B07996D007219F8 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				4B6D09F32B07999C007219F8 /* Screen */,
-				4B6D09F42B0799A1007219F8 /* VC */,
+				4B6D09FF2B079D2D007219F8 /* Home */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -111,6 +115,48 @@
 				4B6D09F82B079AE9007219F8 /* UIView+Extensions.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		4B6D09FA2B079B95007219F8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4B6D09FC2B079BA1007219F8 /* Service */,
+				4B6D09FB2B079B9C007219F8 /* JSON */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		4B6D09FB2B079B9C007219F8 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				4B6D09FD2B079BC0007219F8 /* DataMock.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		4B6D09FC2B079BA1007219F8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4B6D09FF2B079D2D007219F8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4B6D0A002B079D39007219F8 /* Model */,
+				4B6D09F32B07999C007219F8 /* Screen */,
+				4B6D09F42B0799A1007219F8 /* VC */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4B6D0A002B079D39007219F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B6D0A012B079D4A007219F8 /* HomeModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B6D09EA2B07990B007219F8 /* LaunchScreen.storyboard in Resources */,
+				4B6D09FE2B079BC0007219F8 /* DataMock.json in Resources */,
 				4B6D09E72B07990B007219F8 /* Assets.xcassets in Resources */,
 				4B6D09E52B07990A007219F8 /* Main.storyboard in Resources */,
 			);
@@ -186,6 +233,7 @@
 			files = (
 				4B6D09F62B0799B8007219F8 /* HomeScreen.swift in Sources */,
 				4B6D09E22B079909007219F8 /* HomeVC.swift in Sources */,
+				4B6D0A022B079D4A007219F8 /* HomeModel.swift in Sources */,
 				4B6D09F92B079AE9007219F8 /* UIView+Extensions.swift in Sources */,
 				4B6D09DE2B079909007219F8 /* AppDelegate.swift in Sources */,
 				4B6D09E02B079909007219F8 /* SceneDelegate.swift in Sources */,
