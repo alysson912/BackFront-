@@ -16,7 +16,7 @@
 		4B6D09F62B0799B8007219F8 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D09F52B0799B8007219F8 /* HomeScreen.swift */; };
 		4B6D09F92B079AE9007219F8 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D09F82B079AE9007219F8 /* UIView+Extensions.swift */; };
 		4B6D09FE2B079BC0007219F8 /* DataMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B6D09FD2B079BC0007219F8 /* DataMock.json */; };
-		4B6D0A022B079D4A007219F8 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D0A012B079D4A007219F8 /* HomeModel.swift */; };
+		4B6D0A022B079D4A007219F8 /* HomeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D0A012B079D4A007219F8 /* HomeDataModel.swift */; };
 		4B6D0A052B07A21F007219F8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D0A042B07A21F007219F8 /* HomeViewModel.swift */; };
 		4B6D0A072B07A268007219F8 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D0A062B07A268007219F8 /* HomeService.swift */; };
 /* End PBXBuildFile section */
@@ -33,7 +33,7 @@
 		4B6D09F52B0799B8007219F8 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		4B6D09F82B079AE9007219F8 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		4B6D09FD2B079BC0007219F8 /* DataMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DataMock.json; sourceTree = "<group>"; };
-		4B6D0A012B079D4A007219F8 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		4B6D0A012B079D4A007219F8 /* HomeDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataModel.swift; sourceTree = "<group>"; };
 		4B6D0A042B07A21F007219F8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		4B6D0A062B07A268007219F8 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -160,7 +160,7 @@
 		4B6D0A002B079D39007219F8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				4B6D0A012B079D4A007219F8 /* HomeModel.swift */,
+				4B6D0A012B079D4A007219F8 /* HomeDataModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -248,7 +248,7 @@
 				4B6D09F62B0799B8007219F8 /* HomeScreen.swift in Sources */,
 				4B6D09E22B079909007219F8 /* HomeVC.swift in Sources */,
 				4B6D0A052B07A21F007219F8 /* HomeViewModel.swift in Sources */,
-				4B6D0A022B079D4A007219F8 /* HomeModel.swift in Sources */,
+				4B6D0A022B079D4A007219F8 /* HomeDataModel.swift in Sources */,
 				4B6D09F92B079AE9007219F8 /* UIView+Extensions.swift in Sources */,
 				4B6D09DE2B079909007219F8 /* AppDelegate.swift in Sources */,
 				4B6D0A072B07A268007219F8 /* HomeService.swift in Sources */,

@@ -1,21 +1,12 @@
-//
-//  HomeModel.swift
-//  ProtocolsCodable
-//
-//  Created by Alysson Menezes on 17/11/23.
-//
-
-import UIKit
-
 // This file was generated from JSON Schema using quicktype, do not modify it directly.
 // To parse the JSON, add this file to your project and do:
 //
-//   let dataMock = try? JSONDecoder().decode(DataMock.self, from: jsonData)
+//   let homeDataModel = try? JSONDecoder().decode(HomeDataModel.self, from: jsonData)
 
 import Foundation
 
-// MARK: - DataMock
-struct HomeModel: Codable {
+// MARK: - HomeDataModel
+struct HomeDataModel: Codable {
     var totalValue: Double?
     var listProducts: [ListProduct]?
 }
