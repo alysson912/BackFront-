@@ -10,6 +10,7 @@ import UIKit
 class HomeVC: UIViewController {
     
     private var screen: HomeScreen?
+    private var viewModel = HomeViewModel()
     
     override func loadView() {
         screen = HomeScreen()
@@ -22,7 +23,7 @@ class HomeVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        viewModel.fetchRequest()
     }
 
 
